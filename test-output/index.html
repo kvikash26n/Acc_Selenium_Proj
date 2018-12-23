@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\V423137\AppData\Local\Temp\testng-eclipse--180091680\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 5 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="fusion.regression.crm.benefitverification.BenefitVerificationRegression01" hash-for-method="benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...)">benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="fusion.regression.crm.benefitverification.BenefitVerificationRegression01" hash-for-method="benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...)">benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="fusion.regression.crm.benefitverification.BenefitVerificationRegression01" hash-for-method="benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...)">benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="fusion.regression.crm.benefitverification.BenefitVerificationRegression01" hash-for-method="benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...)">benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="fusion.regression.crm.benefitverification.BenefitVerificationRegression01" hash-for-method="benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...)">benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">fusion.regression.crm.benefitverification.BenefitVerificationRegression01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...)">
+                  </a> <!-- benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...) -->
+                  <span class="method-name">benefitVerificationRegression01</span>
+                  <span class="parameters">(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type", "FieldType":"Label", "TestData":"Benefits Verification"}, {"SectionName":"","FieldLabel":"Case Sub-Type", "FieldType":"Picklist", "TestData":"New BV"}, {"SectionName":"","FieldLabel":"Source", "FieldType":"Picklist", "TestData":"Patient"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"In Progress"}, {"SectionName":"","FieldLabel":"Method of Intake", "FieldType":"Picklist", "TestData":"Fax"}, {"SectionName":"","FieldLabel":"Patient", "FieldType":"Lookup", "TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Provider Site Relationship", "FieldType":"Lookup", "TestData":"Automation Clovis Provider AA : Automation Clovis Site AA"}, {"SectionName":"","FieldLabel":"Program", "FieldType":"Lookup", "TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"PN-00186"},{"SectionName":"","FieldLabel":"Brand", "FieldType":"Lookup", "TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Product","FieldType":"Lookup","TestData":"RUBRACA 200 MG TAB 60"},{"SectionName":"","FieldLabel":"Patient-Brand","FieldType":"Lookup","TestData":"Automation Clovis AA : RUBRACA"},{"SectionName":"","FieldLabel":"Diagnosis Code 1","FieldType":"Lookup","TestData":"20310"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Eligibility Check Type", "FieldType":"Picklist", "TestData":"Medical"}]}, {"RecordDetails":[]}, {"RecordDetails":[]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Medical Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"AOB"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Exception type","FieldType":"Picklist","TestData":"Formulary Exception"},{"SectionName":"","FieldLabel":"PA On File?","FieldType":"Picklist","TestData":"No"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Pharmacy Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"Retail"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Coverage Subject to Ben. Cap"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering Process","FieldType":"TextBox","TestData":"Automation Clovis AA"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount Met","FieldType":"TextBox","TestData":"100"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Triage"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"A645587618"},{"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"},{"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription Document","FieldType":"Lookup","TestData":"AT Prescription Document"},{"SectionName":"","FieldLabel":"Product Type","FieldType":"Picklist","TestData":"Initial Product Fill"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Name","FieldType":"TextArea","TestData":"Blurb 2"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Follow Up 3 Step"}, {"SectionName":"","FieldLabel":"Audience","FieldType":"Picklist","TestData":"Patient"}, {"SectionName":"","FieldLabel":"Patient","FieldType":"Lookup","TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Case Sub-Type","FieldType":"Picklist","TestData":"New Rx Needed"}, {"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Due Date","FieldType":"TextBox","TestData":"GetDate"}, {"SectionName":"","FieldLabel":"Number of Attempts","FieldType":"TextBox","TestData":"3"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Overall Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Overall Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"Completed"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Proceed With BV","FieldType":"CheckBox","TestData":"Checked"}]})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;CLTXDFUS7130&apos;, ip: &apos;10.214.201.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\V423137\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: f319a99fe33c6adf09d58a50811d6c78
+*** Element info: {Using=link text, value=PN-00186}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByLinkText(RemoteWebDriver.java:429)
+	at org.openqa.selenium.By$ByLinkText.findElements(By.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at fusion.library.framework.SeleniumLibrary.getWebElementsFromLocatorDetails(SeleniumLibrary.java:1676)
+	at fusion.library.framework.SeleniumLibrary.getWebElements(SeleniumLibrary.java:377)
+	at fusion.library.framework.SeleniumLibrary.isElementExists(SeleniumLibrary.java:906)
+	at fusion.library.framework.SalesforceLibrary.selectLookupValue(SalesforceLibrary.java:141)
+	at fusion.library.framework.SalesforceLibrary.selectLookupValue(SalesforceLibrary.java:98)
+	at fusion.library.application.CRMLibrary.fillFormDetails(CRMLibrary.java:332)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:173)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:92)
+	at fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerificationRegression01(BenefitVerificationRegression01.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...)">
+                  </a> <!-- benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...) -->
+                  <span class="method-name">benefitVerificationRegression01</span>
+                  <span class="parameters">(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type", "FieldType":"Label", "TestData":"Benefits Verification"}, {"SectionName":"","FieldLabel":"Case Sub-Type", "FieldType":"Picklist", "TestData":"New BV"}, {"SectionName":"","FieldLabel":"Source", "FieldType":"Picklist", "TestData":"Patient"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"In Progress"}, {"SectionName":"","FieldLabel":"Method of Intake", "FieldType":"Picklist", "TestData":"Fax"}, {"SectionName":"","FieldLabel":"Patient", "FieldType":"Lookup", "TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Provider Site Relationship", "FieldType":"Lookup", "TestData":"Automation Clovis Provider AA : Automation Clovis Site AA"}, {"SectionName":"","FieldLabel":"Program", "FieldType":"Lookup", "TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Brand", "FieldType":"Lookup", "TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Product","FieldType":"Lookup","TestData":"RUBRACA 200 MG TAB 60"},{"SectionName":"","FieldLabel":"Diagnosis Code 1","FieldType":"Lookup","TestData":"20310"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Eligibility Check Type", "FieldType":"Picklist", "TestData":"Medicare"}]}, {"RecordDetails":[]}, {"RecordDetails":[]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Medical Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"AOB"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Coverage subject to spend down"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Exception type","FieldType":"Picklist","TestData":"Formulary Exception"},{"SectionName":"","FieldLabel":"PA On File?","FieldType":"Picklist","TestData":"No"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Pharmacy Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"Retail"},{"SectionName":"","FieldLabel":"Pre-Existing Condition","FieldType":"Label","TestData":"No"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering Process","FieldType":"TextBox","TestData":"Automation Clovis AA"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount Met","FieldType":"TextBox","TestData":"100"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Triage"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"A645587618"},{"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"},{"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription Document","FieldType":"Lookup","TestData":"AT Prescription Document"},{"SectionName":"","FieldLabel":"Product Type","FieldType":"Picklist","TestData":"Initial Product Fill"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Name","FieldType":"TextArea","TestData":"Blurb 2"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Follow Up 3 Step"}, {"SectionName":"","FieldLabel":"Audience","FieldType":"Picklist","TestData":"Patient"}, {"SectionName":"","FieldLabel":"Patient","FieldType":"Lookup","TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Case Sub-Type","FieldType":"Picklist","TestData":"New Rx Needed"}, {"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Due Date","FieldType":"TextBox","TestData":"GetDate"}, {"SectionName":"","FieldLabel":"Number of Attempts","FieldType":"TextBox","TestData":"3"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Overall Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Overall Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"Completed"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Proceed With BV","FieldType":"CheckBox","TestData":"Checked"}]})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;CLTXDFUS7130&apos;, ip: &apos;10.214.201.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\V423137\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 5cda396f7890cefd772c38dfa98a4ec5
+*** Element info: {Using=xpath, value=//div[@class=&apos;messageText&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at fusion.library.framework.SeleniumLibrary.getWebElementsFromLocatorDetails(SeleniumLibrary.java:1676)
+	at fusion.library.framework.SeleniumLibrary.getWebElements(SeleniumLibrary.java:377)
+	at fusion.library.framework.SeleniumLibrary.isElementExists(SeleniumLibrary.java:906)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:183)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:92)
+	at fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerificationRegression01(BenefitVerificationRegression01.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...)">
+                  </a> <!-- benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...) -->
+                  <span class="method-name">benefitVerificationRegression01</span>
+                  <span class="parameters">(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type", "FieldType":"Label", "TestData":"Benefits Verification"}, {"SectionName":"","FieldLabel":"Case Sub-Type", "FieldType":"Picklist", "TestData":"New BV"}, {"SectionName":"","FieldLabel":"Source", "FieldType":"Picklist", "TestData":"Patient"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"In Progress"}, {"SectionName":"","FieldLabel":"Method of Intake", "FieldType":"Picklist", "TestData":"Fax"}, {"SectionName":"","FieldLabel":"Patient", "FieldType":"Lookup", "TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Provider Site Relationship", "FieldType":"Lookup", "TestData":"Automation Clovis Provider AA : Automation Clovis Site AA"}, {"SectionName":"","FieldLabel":"Program", "FieldType":"Lookup", "TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Brand", "FieldType":"Lookup", "TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"PN-06601"},{"SectionName":"","FieldLabel":"Product","FieldType":"Lookup","TestData":"RUBRACA 200 MG TAB 60"},{"SectionName":"","FieldLabel":"Patient-Brand","FieldType":"Lookup","TestData":"Automation Clovis AA : RUBRACA"},{"SectionName":"","FieldLabel":"Diagnosis Code 1","FieldType":"Lookup","TestData":"20310"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Eligibility Check Type", "FieldType":"Picklist", "TestData":"Pharmacy Test Claim"}]}, {"RecordDetails":[]}, {"RecordDetails":[]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Medical Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"AOB"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Pre-Existing Condition","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Exception type","FieldType":"Picklist","TestData":"Formulary Exception"},{"SectionName":"","FieldLabel":"PA On File?","FieldType":"Picklist","TestData":"No"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Pharmacy Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"Retail"},{"SectionName":"","FieldLabel":"Pre-Existing Condition","FieldType":"Label","TestData":"No"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Coverage Subject to Ben. Cap"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering Process","FieldType":"TextBox","TestData":"Automation Clovis AA"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount Met","FieldType":"TextBox","TestData":"100"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Triage"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"A645587618"},{"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"},{"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription Document","FieldType":"Lookup","TestData":"AT Prescription Document"},{"SectionName":"","FieldLabel":"Product Type","FieldType":"Picklist","TestData":"Initial Product Fill"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Name","FieldType":"TextArea","TestData":"Blurb 2"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Follow Up 1 Step"}, {"SectionName":"","FieldLabel":"Audience","FieldType":"Picklist","TestData":"Patient"}, {"SectionName":"","FieldLabel":"Patient","FieldType":"Lookup","TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Case Sub-Type","FieldType":"Picklist","TestData":"New Rx Needed"}, {"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Due Date","FieldType":"TextBox","TestData":"GetDate"}, {"SectionName":"","FieldLabel":"Number of Attempts","FieldType":"TextBox","TestData":"3"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Overall Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Overall Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"Completed"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Proceed With BV","FieldType":"CheckBox","TestData":"Checked"}]})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;CLTXDFUS7130&apos;, ip: &apos;10.214.201.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\V423137\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 132970dc91aa24d9a30244dba919f448
+*** Element info: {Using=xpath, value=//input[normalize-space(@value)=&quot;Cancel&quot; and (@type=&apos;button&apos; or @type=&apos;submit&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at fusion.library.framework.SeleniumLibrary.getWebElementsFromLocatorDetails(SeleniumLibrary.java:1676)
+	at fusion.library.framework.SeleniumLibrary.getWebElements(SeleniumLibrary.java:377)
+	at fusion.library.framework.SeleniumLibrary.isElementExists(SeleniumLibrary.java:906)
+	at fusion.library.framework.SeleniumLibrary.getElementXPath(SeleniumLibrary.java:1402)
+	at fusion.library.framework.SeleniumLibrary.isElementExists(SeleniumLibrary.java:924)
+	at fusion.library.framework.DriverSyncLibrary.waitForPageToLoad(DriverSyncLibrary.java:47)
+	at fusion.library.framework.SeleniumLibrary.refreshDriver(SeleniumLibrary.java:183)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:208)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:92)
+	at fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerificationRegression01(BenefitVerificationRegression01.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...)">
+                  </a> <!-- benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...) -->
+                  <span class="method-name">benefitVerificationRegression01</span>
+                  <span class="parameters">(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type", "FieldType":"Label", "TestData":"Benefits Verification"}, {"SectionName":"","FieldLabel":"Case Sub-Type", "FieldType":"Picklist", "TestData":"New BV"}, {"SectionName":"","FieldLabel":"Source", "FieldType":"Picklist", "TestData":"Patient"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"In Progress"}, {"SectionName":"","FieldLabel":"Method of Intake", "FieldType":"Picklist", "TestData":"Fax"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"PN-00186"}, {"SectionName":"","FieldLabel":"Patient", "FieldType":"Lookup", "TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Provider Site Relationship", "FieldType":"Lookup", "TestData":"Automation Clovis Provider AA : Automation Clovis Site AA"}, {"SectionName":"","FieldLabel":"Program", "FieldType":"Lookup", "TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Brand", "FieldType":"Lookup", "TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Product","FieldType":"Lookup","TestData":"RUBRACA 200 MG TAB 60"},{"SectionName":"","FieldLabel":"Patient-Brand","FieldType":"Lookup","TestData":"Automation Clovis AA : RUBRACA"},{"SectionName":"","FieldLabel":"Diagnosis Code 1","FieldType":"Lookup","TestData":"20310"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Eligibility Check Type", "FieldType":"Picklist", "TestData":"Pharmacy Test Claim"}]}, {"RecordDetails":[]}, {"RecordDetails":[]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Medical Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"AOB"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Exception type","FieldType":"Picklist","TestData":"Formulary Exception"},{"SectionName":"","FieldLabel":"PA On File?","FieldType":"Picklist","TestData":"No"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Pharmacy Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"Retail"},{"SectionName":"","FieldLabel":"Pre-Existing Condition","FieldType":"Label","TestData":"No"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Coverage Subject to Ben. Cap"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering Process","FieldType":"TextBox","TestData":"Automation Clovis AA"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount Met","FieldType":"TextBox","TestData":"100"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Triage"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"A645587618"},{"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"},{"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription Document","FieldType":"Lookup","TestData":"AT Prescription Document"},{"SectionName":"","FieldLabel":"Product Type","FieldType":"Picklist","TestData":"Initial Product Fill"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Name","FieldType":"TextArea","TestData":"Blurb 2"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Follow Up 3 Step"}, {"SectionName":"","FieldLabel":"Audience","FieldType":"Picklist","TestData":"Patient"}, {"SectionName":"","FieldLabel":"Patient","FieldType":"Lookup","TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Case Sub-Type","FieldType":"Picklist","TestData":"New Rx Needed"}, {"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Due Date","FieldType":"TextBox","TestData":"GetDate"}, {"SectionName":"","FieldLabel":"Number of Attempts","FieldType":"TextBox","TestData":"3"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Overall Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Overall Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"Completed"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Proceed With BV","FieldType":"CheckBox","TestData":"Checked"}]})</span>
+                  <div class="stack-trace">java.lang.AssertionError: PN-00186 is not available in Prescription Lookup
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.asserts.Assertion$6.doAssert(Assertion.java:157)
+	at org.testng.asserts.Assertion.executeAssert(Assertion.java:30)
+	at org.testng.asserts.Assertion.doAssert(Assertion.java:15)
+	at org.testng.asserts.Assertion.fail(Assertion.java:154)
+	at fusion.library.framework.GenericLibrary.handleErrorAndException(GenericLibrary.java:534)
+	at fusion.library.framework.GenericLibrary.handleErrorAndException(GenericLibrary.java:542)
+	at fusion.library.framework.SalesforceLibrary.selectLookupValue(SalesforceLibrary.java:99)
+	at fusion.library.application.CRMLibrary.fillFormDetails(CRMLibrary.java:332)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:173)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:92)
+	at fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerificationRegression01(BenefitVerificationRegression01.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...)">
+                  </a> <!-- benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...) -->
+                  <span class="method-name">benefitVerificationRegression01</span>
+                  <span class="parameters">(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type", "FieldType":"Label", "TestData":"Benefits Verification"}, {"SectionName":"","FieldLabel":"Case Sub-Type", "FieldType":"Picklist", "TestData":"New BV"}, {"SectionName":"","FieldLabel":"Source", "FieldType":"Picklist", "TestData":"Patient"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"In Progress"}, {"SectionName":"","FieldLabel":"Method of Intake", "FieldType":"Picklist", "TestData":"Fax"}, {"SectionName":"","FieldLabel":"Patient", "FieldType":"Lookup", "TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Provider Site Relationship", "FieldType":"Lookup", "TestData":"Automation Clovis Provider AA : Automation Clovis Site AA"}, {"SectionName":"","FieldLabel":"Program", "FieldType":"Lookup", "TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Brand", "FieldType":"Lookup", "TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Product","FieldType":"Lookup","TestData":"RUBRACA 200 MG TAB 60"},{"SectionName":"","FieldLabel":"Diagnosis Code 1","FieldType":"Lookup","TestData":"20310"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Eligibility Check Type", "FieldType":"Picklist", "TestData":"Medicare"}]}, {"RecordDetails":[]}, {"RecordDetails":[]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Medical Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"AOB"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"No restriction"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Exception type","FieldType":"Picklist","TestData":"Formulary Exception"},{"SectionName":"","FieldLabel":"PA On File?","FieldType":"Picklist","TestData":"No"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Benefit Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Lifetime Maximum Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pre-Existing Condition Date","FieldType":"TextBox","TestData":"GetDateTime"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Pharmacy Benefits Profile"},{"SectionName":"","FieldLabel":"Payer Ability to Disclose Benefits","FieldType":"Picklist","TestData":"No Restrictions"},{"SectionName":"","FieldLabel":"Sub Type","FieldType":"Picklist","TestData":"Retail"},{"SectionName":"","FieldLabel":"Pre-Existing Condition","FieldType":"Label","TestData":"No"},{"SectionName":"","FieldLabel":"Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"PA Required?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering?","FieldType":"Picklist","TestData":"Yes"},{"SectionName":"","FieldLabel":"Tier Lowering Process","FieldType":"TextBox","TestData":"Automation Clovis AA"},{"SectionName":"","FieldLabel":"Yes","FieldType":"Button","TestData":"Click"},{"SectionName":"","FieldLabel":"Individual Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Individual Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Deductible Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Family Out-of-Pocket Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Drug Cap Amount Met","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount","FieldType":"TextBox","TestData":"100"},{"SectionName":"","FieldLabel":"Pharmacy Cap Amount Met","FieldType":"TextBox","TestData":"100"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Triage"},{"SectionName":"","FieldLabel":"Prescription","FieldType":"Lookup","TestData":"A645587618"},{"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"},{"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"},{"SectionName":"","FieldLabel":"Prescription Document","FieldType":"Lookup","TestData":"AT Prescription Document"},{"SectionName":"","FieldLabel":"Product Type","FieldType":"Picklist","TestData":"Initial Product Fill"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Name","FieldType":"TextArea","TestData":"Blurb 2"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Record Type","FieldType":"Label","TestData":"Follow Up 3 Step"}, {"SectionName":"","FieldLabel":"Audience","FieldType":"Picklist","TestData":"Patient"}, {"SectionName":"","FieldLabel":"Patient","FieldType":"Lookup","TestData":"Automation Clovis AA"}, {"SectionName":"","FieldLabel":"Program","FieldType":"Lookup","TestData":"Rubraca Connections"}, {"SectionName":"","FieldLabel":"Case Sub-Type","FieldType":"Picklist","TestData":"New Rx Needed"}, {"SectionName":"","FieldLabel":"Brand","FieldType":"Lookup","TestData":" RUBRACA"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Due Date","FieldType":"TextBox","TestData":"GetDate"}, {"SectionName":"","FieldLabel":"Number of Attempts","FieldType":"TextBox","TestData":"3"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Overall Outcome","FieldType":"Picklist","TestData":"Covered"},{"SectionName":"","FieldLabel":"Overall Outcome Reason","FieldType":"Picklist","TestData":"Exception Required"},{"SectionName":"","FieldLabel":"Status","FieldType":"Picklist","TestData":"Completed"}]}, {"RecordDetails":[{"SectionName":"","FieldLabel":"Proceed With BV","FieldType":"CheckBox","TestData":"Checked"}]})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;CLTXDFUS7130&apos;, ip: &apos;10.214.201.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\V423137\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 431802302fd4731456b15ed78d93bb30
+*** Element info: {Using=xpath, value=//div[@class=&apos;messageText&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at fusion.library.framework.SeleniumLibrary.getWebElementsFromLocatorDetails(SeleniumLibrary.java:1676)
+	at fusion.library.framework.SeleniumLibrary.getWebElements(SeleniumLibrary.java:377)
+	at fusion.library.framework.SeleniumLibrary.isElementExists(SeleniumLibrary.java:906)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:183)
+	at fusion.library.application.CRMLibrary.createNewRecord(CRMLibrary.java:92)
+	at fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerificationRegression01(BenefitVerificationRegression01.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\V423137\AppData\Local\Temp\testng-eclipse--180091680\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fusion.regression.crm.benefitverification.BenefitVerificationRegression01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Benefit Verification</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">benefitVerificationRegression01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">CRM</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">benefitVerificationRegression01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">benefitVerificationRegression01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'benefitVerificationRegression01')
+data.setCell(0, 2, 'fusion.regression.crm.benefitverification.BenefitVerificationRegression01')
+data.setCell(0, 3, 90987);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'benefitVerificationRegression01')
+data.setCell(1, 2, 'fusion.regression.crm.benefitverification.BenefitVerificationRegression01')
+data.setCell(1, 3, 80723);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'benefitVerificationRegression01')
+data.setCell(2, 2, 'fusion.regression.crm.benefitverification.BenefitVerificationRegression01')
+data.setCell(2, 3, 77397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'benefitVerificationRegression01')
+data.setCell(3, 2, 'fusion.regression.crm.benefitverification.BenefitVerificationRegression01')
+data.setCell(3, 3, 75775);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'benefitVerificationRegression01')
+data.setCell(4, 2, 'fusion.regression.crm.benefitverification.BenefitVerificationRegression01')
+data.setCell(4, 3, 69931);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Object: Cases</span>
+                <span class="reporter-method-output">Record Type: Benefits Verification</span>
+                <span class="reporter-method-output">Case Sub-Type: New BV</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Object: Cases</span>
+                <span class="reporter-method-output">Record Type: Benefits Verification</span>
+                <span class="reporter-method-output">Case Sub-Type: New BV</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Object: Cases</span>
+                <span class="reporter-method-output">Record Type: Benefits Verification</span>
+                <span class="reporter-method-output">Case Sub-Type: New BV</span>
+                <span class="reporter-method-output">
+Created Cases record.
+Record ID/Name : New Case</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Object: Cases</span>
+                <span class="reporter-method-output">Record Type: Benefits Verification</span>
+                <span class="reporter-method-output">Case Sub-Type: New BV</span>
+                <span class="reporter-method-output">PN-00186 is not available in Prescription Lookup</span>
+                <span class="reporter-method-output">Screenshot : CRM_Benefit Verification_02152018_060041914_Failed.PNG</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Object: Cases</span>
+                <span class="reporter-method-output">Record Type: Benefits Verification</span>
+                <span class="reporter-method-output">Case Sub-Type: New BV</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">fusion.regression.crm.benefitverification.BenefitVerificationRegression01</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initSetUp(org.testng.TestRunner@b6b6b6)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod(public void fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerific...)</span>
+                <span class="method-start">937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">benefitVerificationRegression01(pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=, A0kZImis0kw=VOB2uZU+NwU=, ...)</span>
+                <span class="method-start">6941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeMethod([TestResult name=benefitVerificationRegression01 status=FAILURE method=BenefitVerificationRegression...)</span>
+                <span class="method-start">87666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod(public void fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerific...)</span>
+                <span class="method-start">88792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">benefitVerificationRegression01(dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=, 6VwnjsuGuF8=bh3Dlhe8r1s=, ...)</span>
+                <span class="method-start">93947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeMethod([TestResult name=benefitVerificationRegression01 status=FAILURE method=BenefitVerificationRegression...)</span>
+                <span class="method-start">163880 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod(public void fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerific...)</span>
+                <span class="method-start">164929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">benefitVerificationRegression01(Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=, lfA7OL0SpQU=rGJB2vyeQ1c=, ...)</span>
+                <span class="method-start">169420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeMethod([TestResult name=benefitVerificationRegression01 status=FAILURE method=BenefitVerificationRegression...)</span>
+                <span class="method-start">245196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod(public void fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerific...)</span>
+                <span class="method-start">246296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">benefitVerificationRegression01(btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=, vAEQ1ZdHk04=3RNGMY+xwGY=, ...)</span>
+                <span class="method-start">250550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeMethod([TestResult name=benefitVerificationRegression01 status=FAILURE method=BenefitVerificationRegression...)</span>
+                <span class="method-start">327949 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod(public void fusion.regression.crm.benefitverification.BenefitVerificationRegression01.benefitVerific...)</span>
+                <span class="method-start">328951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">benefitVerificationRegression01(v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=, L/dMg/WulvY=pw3GVJfiSyg=, ...)</span>
+                <span class="method-start">333525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeMethod([TestResult name=benefitVerificationRegression01 status=FAILURE method=BenefitVerificationRegression...)</span>
+                <span class="method-start">424512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">captureDataProviderExceptions</span>
+                <span class="method-start">425386 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeExecution(org.testng.TestRunner@b6b6b6)</span>
+                <span class="method-start">425433 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

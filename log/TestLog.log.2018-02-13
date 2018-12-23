@@ -1,0 +1,18 @@
+13-Feb-2018 : 06:06:41 [INFO] initSetUp : (TestCaseController.java:41) : **************************************** Execution : 02/13/2018 6:06 AM ****************************************
+13-Feb-2018 : 06:06:42 [INFO] testDataProvider : (TestCaseController.java:129) : Starting Test : fusion.regression.crm.benefitverification.BenefitVerificationRegression01
+13-Feb-2018 : 06:06:42 [INFO] testDataProvider : (TestCaseController.java:250) : No of DataSet to Execute : 5
+13-Feb-2018 : 06:06:42 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+13-Feb-2018 : 06:06:47 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : c5b9f78691bcac92654627e989480b3f
+13-Feb-2018 : 06:06:51 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+13-Feb-2018 : 06:06:51 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=
+13-Feb-2018 : 06:06:51 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : A0kZImis0kw=VOB2uZU+NwU=
+13-Feb-2018 : 06:06:54 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+13-Feb-2018 : 06:07:08 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+13-Feb-2018 : 06:07:08 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+13-Feb-2018 : 06:07:08 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+13-Feb-2018 : 06:07:08 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+13-Feb-2018 : 06:07:08 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+13-Feb-2018 : 06:07:08 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+13-Feb-2018 : 06:07:09 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+13-Feb-2018 : 06:07:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+13-Feb-2018 : 06:09:17 [INFO] initSetUp : (TestCaseController.java:41) : **************************************** Execution : 02/13/2018 6:09 AM ****************************************

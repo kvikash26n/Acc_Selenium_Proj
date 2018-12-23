@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!-- Button Locators -->
+	<entry key="btnGo_xpath">//input[@name='go']</entry>
+	<entry key="btnLogIn_id">Login</entry>
+	<entry key="btnLookUpSearch_xpath">//input[@title='Go!']</entry>
+
+	<!-- ComboBox Locators -->
+	<entry key="cboxRecordType_id">p3</entry>
+	<entry key="cboxView_xpath">//select[@title='View:']</entry>
+
+	<!-- Div Locators -->
+	<entry key="divAppSelector_id">tsid</entry>
+	<entry key="divErrorMessage_class">errorMsg</entry>
+	<entry key="divErrorMessage_id">errorDiv_ep</entry>
+	<entry key="divErrorMessage_xpath">//div[contains(@class,'errorMessage')]</entry>
+	<entry key="divUserNavigation_id">userNavButton</entry>
+	<entry key="divUserNameInfo_id">userNav</entry>
+
+	<!-- Frame Locators -->
+	<entry key="frameLookUpResult_id">resultsFrame</entry>
+	<entry key="frameLookUpSearch_id">searchFrame</entry>
+	<entry key="frameCommunicateBenefitProfiles_xpath">//iframe[@title='LASH_BV_ParentCaseBenefitProfiles']</entry>
+	<entry key="frameFulfilmentOrderVFPage_xpath">//iframe[contains(@src, 'LASH_FulfillmentOrder_VF')]</entry>
+	<entry key="frameGlobalSearchResult_xpath">//iframe[contains(@src, 'UnifiedSearchResults')]</entry>
+	<entry key="frameOrderLineItemVFPage_xpath">//iframe[contains(@src, 'LASH_OrderLIneItem_VF')]</entry>
+	<entry key="frameAlternateCoverageOptions_xpath">//iframe[@title='LASH_Alternate_Coverage_Options']</entry>
+	<entry key="framePatientReferrals_xpath">//iframe[@title='LASH_Recommended_Patient_Referrals']</entry>
+	<entry key="framePrescriptionDosageForFills_xpath">//iframe[@title='LASH_DT_PrescriptionDosage_VF']</entry>
+	<entry key="frameCaseWorkflowVisualization_xpath">//iframe[@title='APS_workflow_Visualization']</entry>
+	<entry key="frameMissingInfo_xpath">//iframe[@title='LASH_MissingInfo_VFPage']</entry>
+
+	<!-- Generic Element Locators -->
+	<entry key="imgAllTabs_xpath">//img[@title='All Tabs']</entry>
+	<entry key="imgNextTablePage_xpath">//img[@alt='Next']</entry>
+	<entry key="imgAddToList_xpath">//img[@title='Add']</entry>
+	<entry key="imgRemoveFromList_xpath">//img[@title='Remove']</entry>
+	<entry key="pageLoader_xpath">//div[contains(@id, 'loading') and contains(@style,
+		'display: none')]</entry>
+	<entry key="pageLoading_xpath">//div[contains(@class, 'x-mask-loading')]</entry>
+	<entry key="sortHeaderSetUpItemListTable_xpath">//table[@class='list']//th[2]</entry>
+	<entry key="tabDetails_xpath">//span[text()='TAB_HEADER']/ancestor::li[1]</entry>
+	<entry key="tabLoading_xpath">//span[@class='tabText' and
+		contains(text(),'Loading..')]</entry>
+	<entry key="tabNameLinkText_link">TAB_NAME</entry>
+	<entry key="tableWorkflowVisualization_xpath">//table[@id='workflowviz']//tr</entry>
+	<!-- Label Locators -->
+	<entry key="lblContactInfoRlist_xpath">//h3[contains(.,'Contact Information')]</entry>
+	<entry key="lblDataElement_xpath">//td[text()='HEADER_COLUMN_TEXT']/following-sibling::td[1]/div</entry>
+	<entry key="lblElementName_xpath">//td[text()='FILLER']</entry>
+	<entry key="lblListColumnHeader_xpath">//div[translate(@title,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='FILLER']</entry>
+	<entry key="lblSelectedApp_id">tsidLabel</entry>
+	<entry key="pageTitle_xpath">//h2[@class='pageDescription' or @class='topName']</entry>
+	<!-- Link Locators -->
+	<entry key="linkAutomationProgram_link">Automation_Program</entry>
+	<entry key="linkBackToListAccounts_xpath">//a[contains(.,'Back to List: Accounts')]</entry>
+	<entry key="linkChange_xpath">//td[text()='ELEMENT_LABEL']/following-sibling::td[1]//a[text()='[Change]']</entry>
+	<entry key="linkContactInfoRlist_xpath">//span[contains(.,'Contact Information[')]</entry>
+	<entry key="linkItemText_xpath">//a/span[text()='ACCOUNT_LINK_TEXT']</entry>
+	<entry key="linkLogOut_link">Logout</entry>
+	<entry key="linkSearchElement_xpath">//span[starts-with(text(), 'Search for')]</entry>
+	<entry key="linkSetup_id">setupLink</entry>
+	<entry key="linkSetUpItem_xpath">//table[@class='list']//th/a[translate(text(),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='SETUP_ITEM_FILLER']</entry>
+	<entry key="linkSetUpOption_xpath">//div[@id='AutoNumber5']//a[translate(text(),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='SETUP_OPTION_FILLER']</entry>
+	<entry key="linkSetUpResultFilter_xpath">//span[@class='listItemPad' and text()='FILTER_CHAR']</entry>
+	<!-- ListBox Locators -->
+	<entry key="listSelectPopUp_id">dialog_language</entry>
+	<!-- LookUp Locators -->
+	<entry key="lookUpType_xpath">//label[contains(text(),'LOOKUP_LABEL')]/ancestor::td[1]/following-sibling::td[1]//span//</entry>
+	<!-- TextBox Locators -->
+	<entry key="txtGlobalSearch_id">phSearchInput</entry>
+	<entry key="txtLookUpSearch_id">lksrch</entry>
+	<entry key="txtPageNumber_xpath">//div[contains(@id,'bottomNav')]//input[@class='pageInput']</entry>
+	<entry key="txtPassword_id">password</entry>
+	<entry key="txtPrimaryKeyElement_id">Name</entry>
+	<entry key="txtSetUpItemSearch_id">setupSearch</entry>
+	<entry key="txtUserName_id">username</entry>
+</properties>

@@ -1,0 +1,4 @@
+15-Jan-2018 : 00:13:30 [INFO] initSetUp : (TestCaseController.java:41) : **************************************** Execution : 01/15/2018 12:13 AM ****************************************
+15-Jan-2018 : 00:13:31 [INFO] testDataProvider : (TestCaseController.java:129) : Starting Test : fusion.regression.crm.triagedistribution.TriageDistributionRegression01
+15-Jan-2018 : 00:13:31 [INFO] testDataProvider : (TestCaseController.java:250) : No of DataSet to Execute : 1
+15-Jan-2018 : 00:13:31 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************

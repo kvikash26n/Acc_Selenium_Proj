@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="Accounts">001</entry>
+	<entry key="Alternate Coverage Options">a27</entry>
+	<entry key="Attachments">a3m</entry>
+	<entry key="Benefits &amp; Coverage">a3E</entry>
+	<entry key="Benefits Profiles">a2A</entry>
+	<entry key="Brand">a2B</entry>
+	<entry key="Cards">a2H</entry>
+	<entry key="Cases">500</entry>
+	<entry key="Claim Line Items">a2O</entry>
+	<entry key="Claims">a2P</entry>
+	<entry key="Codes">a2T</entry>
+	<entry key="Compatibilities">a2U</entry>
+	<entry key="Consents/Opts/Preferences">a2V</entry>
+	<entry key="Contacts">a2W</entry>
+	<entry key="Copay Claim Responses">a2Y</entry>
+	<entry key="Correspondence Responses">a2b</entry>
+	<entry key="Document Management">a2g</entry>
+	<entry key="eEligiblity Responses">a44</entry>
+	<entry key="Eligibility Answer">a4i</entry>
+	<entry key="Eligibility Checks">a28</entry>
+	<entry key="Fills">a2n</entry>
+	<entry key="Financial Profiles">a2o</entry>
+	<entry key="Fulfillment Items">a2q</entry>
+	<entry key="IDs &amp; Licenses">a2s</entry>
+	<entry key="Missing Info">a32</entry>
+	<entry key="Messages">a30</entry>
+	<entry key="Opt-Ins">a35</entry>
+	<entry key="Order Line Items">a36</entry>
+	<entry key="Orders">a37</entry>
+	<entry key="Patient Referrals">a3A</entry>
+	<entry key="Portal User Subscriptions">a3e</entry>
+	<entry key="Prescription Dosage Details">a3S</entry>
+	<entry key="Prescriptions">a3T</entry>
+	<entry key="Product Codes">a3U</entry>
+	<entry key="Products">01t</entry>
+	<entry key="Program Blueprint Versions">a4G</entry>
+	<entry key="Program Blueprints">a3W</entry>
+	<entry key="Program Brand Affliation">a3X</entry>
+	<entry key="Program Brand Blueprint Affiliations">a3Y</entry>
+	<entry key="Program Factor Rankings">a3b</entry>
+	<entry key="Programs">a1d</entry>
+	<entry key="Related Brands">a3i</entry>
+	<entry key="Related Card">a3g</entry>
+	<entry key="Related People">a3h</entry>
+	<entry key="Secure Messages">a31</entry>
+	<entry key="Site Relationship">a3o</entry>
+	<entry key="Site Sales Reps">a3p</entry>
+	<entry key="Tasks">a1l</entry>
+</properties>

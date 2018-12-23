@@ -1,0 +1,582 @@
+15-Feb-2018 : 05:53:58 [INFO] initSetUp : (TestCaseController.java:41) : **************************************** Execution : 02/15/2018 5:53 AM ****************************************
+15-Feb-2018 : 05:53:58 [INFO] testDataProvider : (TestCaseController.java:129) : Starting Test : fusion.regression.crm.benefitverification.BenefitVerificationRegression01
+15-Feb-2018 : 05:53:58 [INFO] testDataProvider : (TestCaseController.java:250) : No of DataSet to Execute : 5
+15-Feb-2018 : 05:53:58 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+15-Feb-2018 : 05:54:03 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : 132970dc91aa24d9a30244dba919f448
+15-Feb-2018 : 05:54:05 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+15-Feb-2018 : 05:54:05 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : pLkxmri9LDQ=9XT/+iY2DkD2e9fQfazFplCtnGUgg2Cm65Q4DL9v0GBY7YTDehAcpYNKbLM=
+15-Feb-2018 : 05:54:05 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : A0kZImis0kw=VOB2uZU+NwU=
+15-Feb-2018 : 05:54:08 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+15-Feb-2018 : 05:54:23 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+15-Feb-2018 : 05:54:23 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+15-Feb-2018 : 05:54:23 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:23 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+15-Feb-2018 : 05:54:23 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+15-Feb-2018 : 05:54:23 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+15-Feb-2018 : 05:54:23 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+15-Feb-2018 : 05:54:23 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:34 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 05:54:42 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : Cases
+15-Feb-2018 : 05:54:42 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:43 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:54:43 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:43 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:54:43 [INFO] createNewRecord : (CRMLibrary.java:133) : Object: Cases
+15-Feb-2018 : 05:54:43 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:43 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:48 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:54:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:48 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, 'recordtypeselect.jsp')]
+15-Feb-2018 : 05:54:48 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 2 Seconds.
+15-Feb-2018 : 05:54:50 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Continue : //input[normalize-space(@value)="Continue" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:54:51 [INFO] createNewRecord : (CRMLibrary.java:169) : Record Type: Benefits Verification
+15-Feb-2018 : 05:54:51 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:51 [INFO] fillFormDetails : (CRMLibrary.java:310) : Case Sub-Type: New BV
+15-Feb-2018 : 05:54:56 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:56 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:54:56 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:56 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:54:56 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Record Type --> Field Type: Label --> Test Data: Benefits Verification
+15-Feb-2018 : 05:54:56 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Case Sub-Type --> Field Type: Picklist --> Test Data: New BV
+15-Feb-2018 : 05:54:56 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Case Sub-Type : //label[normalize-space(text())="Case Sub-Type"]/following::select[1]
+15-Feb-2018 : 05:54:56 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Source --> Field Type: Picklist --> Test Data: Patient
+15-Feb-2018 : 05:54:56 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Source : //label[normalize-space(text())="Source"]/following::select[1]
+15-Feb-2018 : 05:54:57 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Status --> Field Type: Picklist --> Test Data: In Progress
+15-Feb-2018 : 05:54:57 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Status : //label[normalize-space(text())="Status"]/following::select[1]
+15-Feb-2018 : 05:54:57 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Method of Intake --> Field Type: Picklist --> Test Data: Fax
+15-Feb-2018 : 05:54:57 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Method of Intake : //label[normalize-space(text())="Method of Intake"]/following::select[1]
+15-Feb-2018 : 05:54:57 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Patient --> Field Type: Lookup --> Test Data: Automation Clovis AA
+15-Feb-2018 : 05:54:57 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis AA in Patient lookUp.
+15-Feb-2018 : 05:54:57 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]
+15-Feb-2018 : 05:54:57 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:54:58 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:54:58 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:54:59 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:59 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:59 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:54:59 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:59 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:54:59 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:54:59 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:54:59 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Provider Site Relationship --> Field Type: Lookup --> Test Data: Automation Clovis Provider AA : Automation Clovis Site AA
+15-Feb-2018 : 05:54:59 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis Provider AA : Automation Clovis Site AA in Provider Site Relationship lookUp.
+15-Feb-2018 : 05:54:59 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]
+15-Feb-2018 : 05:54:59 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:00 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:00 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:01 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:01 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:01 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:02 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:02 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:02 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Program --> Field Type: Lookup --> Test Data: Rubraca Connections
+15-Feb-2018 : 05:55:02 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Rubraca Connections in Program lookUp.
+15-Feb-2018 : 05:55:02 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]
+15-Feb-2018 : 05:55:02 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:02 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:02 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:03 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:03 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:03 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:04 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:04 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:04 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:04 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:04 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Brand --> Field Type: Lookup --> Test Data: RUBRACA
+15-Feb-2018 : 05:55:04 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA in Brand lookUp.
+15-Feb-2018 : 05:55:04 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]
+15-Feb-2018 : 05:55:04 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:04 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:04 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:05 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:06 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:06 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:06 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:06 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:06 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Prescription --> Field Type: Lookup --> Test Data: PN-06601
+15-Feb-2018 : 05:55:06 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting PN-06601 in Prescription lookUp.
+15-Feb-2018 : 05:55:06 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]
+15-Feb-2018 : 05:55:06 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:06 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:06 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:07 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:08 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:08 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:08 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:08 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:08 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Product --> Field Type: Lookup --> Test Data: RUBRACA 200 MG TAB 60
+15-Feb-2018 : 05:55:08 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA 200 MG TAB 60 in Product lookUp.
+15-Feb-2018 : 05:55:08 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]
+15-Feb-2018 : 05:55:08 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:08 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:08 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:09 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:10 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:10 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:10 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Patient-Brand --> Field Type: Lookup --> Test Data: Automation Clovis AA : RUBRACA
+15-Feb-2018 : 05:55:10 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis AA : RUBRACA in Patient-Brand lookUp.
+15-Feb-2018 : 05:55:10 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient-Brand : //label[normalize-space(text())="Patient-Brand"]
+15-Feb-2018 : 05:55:10 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient-Brand : //label[normalize-space(text())="Patient-Brand"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:11 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:11 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:12 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:12 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:12 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:12 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:12 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:12 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:12 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:12 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Diagnosis Code 1 --> Field Type: Lookup --> Test Data: 20310
+15-Feb-2018 : 05:55:12 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting 20310 in Diagnosis Code 1 lookUp.
+15-Feb-2018 : 05:55:12 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]
+15-Feb-2018 : 05:55:12 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:55:13 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(13D9C6878C3D9C50A0F62A679680E0B9)
+15-Feb-2018 : 05:55:13 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:55:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:14 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:55:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:14 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:55:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:14 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:55:14 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Save : //input[normalize-space(@value)="Save" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:55:24 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : New Case
+15-Feb-2018 : 05:55:24 [INFO] createNewRecord : (CRMLibrary.java:203) : Created Cases, Record Type : Benefits Verification --> record : New Case
+15-Feb-2018 : 05:55:24 [WARN] waitForPageToLoad : (DriverSyncLibrary.java:44) : unexpected alert open: {Alert text : }
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'CLTXDFUS7130', ip: '10.214.201.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\V423137\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 132970dc91aa24d9a30244dba919f448
+15-Feb-2018 : 05:55:24 [WARN] waitForPageToLoad : (DriverSyncLibrary.java:45) : 
+15-Feb-2018 : 05:55:26 [INFO] closeMethod : (TestCaseController.java:108) : **********************************************************************
+15-Feb-2018 : 05:55:26 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+15-Feb-2018 : 05:55:30 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : f319a99fe33c6adf09d58a50811d6c78
+15-Feb-2018 : 05:55:32 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+15-Feb-2018 : 05:55:32 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : dOlrjL5oPio=vWibfe8rK5s1fvtKaS0bITr83Syga7al8Ktcyp4FmJmyLaGruQoMx673IMU=
+15-Feb-2018 : 05:55:32 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : 6VwnjsuGuF8=bh3Dlhe8r1s=
+15-Feb-2018 : 05:55:35 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+15-Feb-2018 : 05:55:48 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+15-Feb-2018 : 05:55:48 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+15-Feb-2018 : 05:55:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:48 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+15-Feb-2018 : 05:55:48 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+15-Feb-2018 : 05:55:48 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+15-Feb-2018 : 05:55:48 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+15-Feb-2018 : 05:55:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:55:59 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 05:56:09 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 05:56:13 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : Cases
+15-Feb-2018 : 05:56:13 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:13 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:13 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:13 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:56:14 [INFO] createNewRecord : (CRMLibrary.java:133) : Object: Cases
+15-Feb-2018 : 05:56:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:19 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:19 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:19 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:19 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, 'recordtypeselect.jsp')]
+15-Feb-2018 : 05:56:19 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 2 Seconds.
+15-Feb-2018 : 05:56:21 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Continue : //input[normalize-space(@value)="Continue" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:56:21 [INFO] createNewRecord : (CRMLibrary.java:169) : Record Type: Benefits Verification
+15-Feb-2018 : 05:56:21 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:21 [INFO] fillFormDetails : (CRMLibrary.java:310) : Case Sub-Type: New BV
+15-Feb-2018 : 05:56:27 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:27 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:27 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:27 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:56:27 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Record Type --> Field Type: Label --> Test Data: Benefits Verification
+15-Feb-2018 : 05:56:27 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Case Sub-Type --> Field Type: Picklist --> Test Data: New BV
+15-Feb-2018 : 05:56:27 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Case Sub-Type : //label[normalize-space(text())="Case Sub-Type"]/following::select[1]
+15-Feb-2018 : 05:56:27 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Source --> Field Type: Picklist --> Test Data: Patient
+15-Feb-2018 : 05:56:27 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Source : //label[normalize-space(text())="Source"]/following::select[1]
+15-Feb-2018 : 05:56:27 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Status --> Field Type: Picklist --> Test Data: In Progress
+15-Feb-2018 : 05:56:27 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Status : //label[normalize-space(text())="Status"]/following::select[1]
+15-Feb-2018 : 05:56:27 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Method of Intake --> Field Type: Picklist --> Test Data: Fax
+15-Feb-2018 : 05:56:27 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Method of Intake : //label[normalize-space(text())="Method of Intake"]/following::select[1]
+15-Feb-2018 : 05:56:28 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Patient --> Field Type: Lookup --> Test Data: Automation Clovis AA
+15-Feb-2018 : 05:56:28 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis AA in Patient lookUp.
+15-Feb-2018 : 05:56:28 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]
+15-Feb-2018 : 05:56:28 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:56:28 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(4C00DA7E044BB84B4924ACFFB1781E5A)
+15-Feb-2018 : 05:56:28 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:56:29 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:29 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:29 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:56:30 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:30 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:30 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:30 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:56:30 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Provider Site Relationship --> Field Type: Lookup --> Test Data: Automation Clovis Provider AA : Automation Clovis Site AA
+15-Feb-2018 : 05:56:30 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis Provider AA : Automation Clovis Site AA in Provider Site Relationship lookUp.
+15-Feb-2018 : 05:56:30 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]
+15-Feb-2018 : 05:56:30 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:56:30 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(4C00DA7E044BB84B4924ACFFB1781E5A)
+15-Feb-2018 : 05:56:30 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:56:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:32 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:32 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:56:32 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:32 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:32 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:32 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:56:32 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Program --> Field Type: Lookup --> Test Data: Rubraca Connections
+15-Feb-2018 : 05:56:32 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Rubraca Connections in Program lookUp.
+15-Feb-2018 : 05:56:32 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]
+15-Feb-2018 : 05:56:32 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:56:32 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(4C00DA7E044BB84B4924ACFFB1781E5A)
+15-Feb-2018 : 05:56:32 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:56:33 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:33 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:33 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:56:34 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:34 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:56:34 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:34 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:56:34 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Prescription --> Field Type: Lookup --> Test Data: PN-00186
+15-Feb-2018 : 05:56:34 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting PN-00186 in Prescription lookUp.
+15-Feb-2018 : 05:56:34 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]
+15-Feb-2018 : 05:56:34 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:56:35 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(4C00DA7E044BB84B4924ACFFB1781E5A)
+15-Feb-2018 : 05:56:35 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:56:36 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:36 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:36 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:56:41 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:41 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:41 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : searchFrame
+15-Feb-2018 : 05:56:41 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:41 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:56:41 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:56:42 [INFO] closeMethod : (TestCaseController.java:108) : **********************************************************************
+15-Feb-2018 : 05:56:42 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+15-Feb-2018 : 05:56:45 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : 431802302fd4731456b15ed78d93bb30
+15-Feb-2018 : 05:56:48 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+15-Feb-2018 : 05:56:48 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : Gry2HvUlSOo=7GVm4GGXqSCeNmdMRlrGKnU3z9g44saK3VF3JhKZdH0FbbqSwAFUgoGAceg=
+15-Feb-2018 : 05:56:48 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : lfA7OL0SpQU=rGJB2vyeQ1c=
+15-Feb-2018 : 05:56:50 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+15-Feb-2018 : 05:57:02 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+15-Feb-2018 : 05:57:02 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+15-Feb-2018 : 05:57:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:02 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+15-Feb-2018 : 05:57:02 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+15-Feb-2018 : 05:57:02 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+15-Feb-2018 : 05:57:02 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+15-Feb-2018 : 05:57:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:17 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 05:57:26 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : Cases
+15-Feb-2018 : 05:57:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:26 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:26 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:26 [INFO] createNewRecord : (CRMLibrary.java:133) : Object: Cases
+15-Feb-2018 : 05:57:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:31 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:31 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, 'recordtypeselect.jsp')]
+15-Feb-2018 : 05:57:31 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 2 Seconds.
+15-Feb-2018 : 05:57:33 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Continue : //input[normalize-space(@value)="Continue" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:57:34 [INFO] createNewRecord : (CRMLibrary.java:169) : Record Type: Benefits Verification
+15-Feb-2018 : 05:57:34 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:34 [INFO] fillFormDetails : (CRMLibrary.java:310) : Case Sub-Type: New BV
+15-Feb-2018 : 05:57:39 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:39 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:39 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:39 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:39 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Record Type --> Field Type: Label --> Test Data: Benefits Verification
+15-Feb-2018 : 05:57:39 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Case Sub-Type --> Field Type: Picklist --> Test Data: New BV
+15-Feb-2018 : 05:57:39 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Case Sub-Type : //label[normalize-space(text())="Case Sub-Type"]/following::select[1]
+15-Feb-2018 : 05:57:39 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Source --> Field Type: Picklist --> Test Data: Patient
+15-Feb-2018 : 05:57:39 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Source : //label[normalize-space(text())="Source"]/following::select[1]
+15-Feb-2018 : 05:57:40 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Status --> Field Type: Picklist --> Test Data: In Progress
+15-Feb-2018 : 05:57:40 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Status : //label[normalize-space(text())="Status"]/following::select[1]
+15-Feb-2018 : 05:57:40 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Method of Intake --> Field Type: Picklist --> Test Data: Fax
+15-Feb-2018 : 05:57:40 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Method of Intake : //label[normalize-space(text())="Method of Intake"]/following::select[1]
+15-Feb-2018 : 05:57:40 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Patient --> Field Type: Lookup --> Test Data: Automation Clovis AA
+15-Feb-2018 : 05:57:40 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis AA in Patient lookUp.
+15-Feb-2018 : 05:57:40 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]
+15-Feb-2018 : 05:57:40 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:41 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:41 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:42 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:42 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:42 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:42 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:42 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:42 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:42 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:42 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Provider Site Relationship --> Field Type: Lookup --> Test Data: Automation Clovis Provider AA : Automation Clovis Site AA
+15-Feb-2018 : 05:57:42 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis Provider AA : Automation Clovis Site AA in Provider Site Relationship lookUp.
+15-Feb-2018 : 05:57:42 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]
+15-Feb-2018 : 05:57:43 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:43 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:43 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:44 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:44 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:44 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:45 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:45 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:45 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:45 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:45 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Program --> Field Type: Lookup --> Test Data: Rubraca Connections
+15-Feb-2018 : 05:57:45 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Rubraca Connections in Program lookUp.
+15-Feb-2018 : 05:57:45 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]
+15-Feb-2018 : 05:57:45 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:45 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:45 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:46 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:46 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:46 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:47 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Brand --> Field Type: Lookup --> Test Data: RUBRACA
+15-Feb-2018 : 05:57:47 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA in Brand lookUp.
+15-Feb-2018 : 05:57:47 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]
+15-Feb-2018 : 05:57:47 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:47 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:47 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:48 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:48 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:48 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:49 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:49 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Product --> Field Type: Lookup --> Test Data: RUBRACA 200 MG TAB 60
+15-Feb-2018 : 05:57:49 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA 200 MG TAB 60 in Product lookUp.
+15-Feb-2018 : 05:57:49 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]
+15-Feb-2018 : 05:57:49 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:49 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:49 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:50 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:50 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:50 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:51 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:51 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:51 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:51 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:51 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Diagnosis Code 1 --> Field Type: Lookup --> Test Data: 20310
+15-Feb-2018 : 05:57:51 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting 20310 in Diagnosis Code 1 lookUp.
+15-Feb-2018 : 05:57:51 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]
+15-Feb-2018 : 05:57:51 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:57:51 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(809D2A8F150A9EF79C7D0551BDFA664C)
+15-Feb-2018 : 05:57:51 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:57:53 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:53 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:53 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:57:53 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:53 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:57:53 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:57:53 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:57:54 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Save : //input[normalize-space(@value)="Save" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:58:04 [INFO] closeMethod : (TestCaseController.java:108) : **********************************************************************
+15-Feb-2018 : 05:58:04 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+15-Feb-2018 : 05:58:07 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : 5cda396f7890cefd772c38dfa98a4ec5
+15-Feb-2018 : 05:58:09 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+15-Feb-2018 : 05:58:09 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : btfyUvDsryo=lW811bsi7VhzBnGbdCSmgRNkYRO9c4xYnaivSJcfne4qRGxojOKOh1diOlE=
+15-Feb-2018 : 05:58:09 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : vAEQ1ZdHk04=3RNGMY+xwGY=
+15-Feb-2018 : 05:58:12 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+15-Feb-2018 : 05:58:25 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+15-Feb-2018 : 05:58:25 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+15-Feb-2018 : 05:58:25 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:25 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+15-Feb-2018 : 05:58:25 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+15-Feb-2018 : 05:58:25 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+15-Feb-2018 : 05:58:25 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+15-Feb-2018 : 05:58:25 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:40 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 05:58:49 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : Cases
+15-Feb-2018 : 05:58:49 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:49 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:58:49 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:49 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:58:49 [INFO] createNewRecord : (CRMLibrary.java:133) : Object: Cases
+15-Feb-2018 : 05:58:49 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:49 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:54 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:54 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:58:54 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:54 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, 'recordtypeselect.jsp')]
+15-Feb-2018 : 05:58:54 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 2 Seconds.
+15-Feb-2018 : 05:58:56 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Continue : //input[normalize-space(@value)="Continue" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:58:57 [INFO] createNewRecord : (CRMLibrary.java:169) : Record Type: Benefits Verification
+15-Feb-2018 : 05:58:57 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:58:57 [INFO] fillFormDetails : (CRMLibrary.java:310) : Case Sub-Type: New BV
+15-Feb-2018 : 05:59:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:02 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:02 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:02 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:02 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Record Type --> Field Type: Label --> Test Data: Benefits Verification
+15-Feb-2018 : 05:59:02 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Case Sub-Type --> Field Type: Picklist --> Test Data: New BV
+15-Feb-2018 : 05:59:02 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Case Sub-Type : //label[normalize-space(text())="Case Sub-Type"]/following::select[1]
+15-Feb-2018 : 05:59:02 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Source --> Field Type: Picklist --> Test Data: Patient
+15-Feb-2018 : 05:59:02 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Source : //label[normalize-space(text())="Source"]/following::select[1]
+15-Feb-2018 : 05:59:03 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Status --> Field Type: Picklist --> Test Data: In Progress
+15-Feb-2018 : 05:59:03 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Status : //label[normalize-space(text())="Status"]/following::select[1]
+15-Feb-2018 : 05:59:03 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Method of Intake --> Field Type: Picklist --> Test Data: Fax
+15-Feb-2018 : 05:59:03 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Method of Intake : //label[normalize-space(text())="Method of Intake"]/following::select[1]
+15-Feb-2018 : 05:59:03 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Patient --> Field Type: Lookup --> Test Data: Automation Clovis AA
+15-Feb-2018 : 05:59:03 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis AA in Patient lookUp.
+15-Feb-2018 : 05:59:03 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]
+15-Feb-2018 : 05:59:03 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Patient : //label[normalize-space(text())="Patient"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:03 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:04 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:05 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:05 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:05 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:05 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:05 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Provider Site Relationship --> Field Type: Lookup --> Test Data: Automation Clovis Provider AA : Automation Clovis Site AA
+15-Feb-2018 : 05:59:05 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Automation Clovis Provider AA : Automation Clovis Site AA in Provider Site Relationship lookUp.
+15-Feb-2018 : 05:59:05 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]
+15-Feb-2018 : 05:59:05 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Provider Site Relationship : //label[normalize-space(text())="Provider Site Relationship"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:06 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:06 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:07 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:07 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:07 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:07 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:07 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Program --> Field Type: Lookup --> Test Data: Rubraca Connections
+15-Feb-2018 : 05:59:07 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting Rubraca Connections in Program lookUp.
+15-Feb-2018 : 05:59:07 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]
+15-Feb-2018 : 05:59:07 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Program : //label[normalize-space(text())="Program"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:08 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:08 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:09 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:09 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:09 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:09 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:09 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Brand --> Field Type: Lookup --> Test Data: RUBRACA
+15-Feb-2018 : 05:59:09 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA in Brand lookUp.
+15-Feb-2018 : 05:59:09 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]
+15-Feb-2018 : 05:59:10 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Brand : //label[normalize-space(text())="Brand"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:10 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:10 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:11 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:11 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:11 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:11 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:11 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:11 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:11 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:12 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Product --> Field Type: Lookup --> Test Data: RUBRACA 200 MG TAB 60
+15-Feb-2018 : 05:59:12 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting RUBRACA 200 MG TAB 60 in Product lookUp.
+15-Feb-2018 : 05:59:12 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]
+15-Feb-2018 : 05:59:12 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Product : //label[normalize-space(text())="Product"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:12 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:12 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:13 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:13 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:13 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:14 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:14 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:14 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:14 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Diagnosis Code 1 --> Field Type: Lookup --> Test Data: 20310
+15-Feb-2018 : 05:59:14 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting 20310 in Diagnosis Code 1 lookUp.
+15-Feb-2018 : 05:59:14 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]
+15-Feb-2018 : 05:59:14 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Diagnosis Code 1 : //label[normalize-space(text())="Diagnosis Code 1"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 05:59:14 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(1E5DA10193576FE61680E23FA93EAE19)
+15-Feb-2018 : 05:59:15 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 05:59:16 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:16 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:16 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 05:59:16 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:16 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 05:59:16 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:16 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 05:59:16 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Save : //input[normalize-space(@value)="Save" and (@type='button' or @type='submit')]
+15-Feb-2018 : 05:59:26 [INFO] closeMethod : (TestCaseController.java:108) : **********************************************************************
+15-Feb-2018 : 05:59:26 [INFO] setUpMethod : (TestCaseController.java:60) : **********************************************************************
+15-Feb-2018 : 05:59:30 [INFO] setUpDriver : (GenericLibrary.java:491) : Driver SessionId : 54f0940f416418582a3d3deb792b9d78
+15-Feb-2018 : 05:59:32 [INFO] logInSFOrg : (SalesforceLibrary.java:41) : Logging into Application with credential : 
+15-Feb-2018 : 05:59:32 [INFO] logInSFOrg : (SalesforceLibrary.java:42) : Username : v+KglN/2u0Q=Ij1H+y7PcA6+a4yih3WXaFQbyCTbhBrBQg0luzZkc/N+8np+QHnP5S9azgg=
+15-Feb-2018 : 05:59:32 [INFO] logInSFOrg : (SalesforceLibrary.java:43) : Password : L/dMg/WulvY=pw3GVJfiSyg=
+15-Feb-2018 : 05:59:35 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 5 Seconds.
+15-Feb-2018 : 05:59:46 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : SysE2ETest
+15-Feb-2018 : 05:59:46 [INFO] openConsoleApplication : (SalesforceLibrary.java:162) : Opening application Intelligent Patient Contact Center
+15-Feb-2018 : 05:59:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 05:59:46 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : 
+15-Feb-2018 : 05:59:46 [INFO] openConsoleApplication : (SalesforceLibrary.java:168) : Current application title Intelligent Patient Conta...
+15-Feb-2018 : 05:59:46 [INFO] openConsoleApplication : (SalesforceLibrary.java:169) : Current application label 
+15-Feb-2018 : 05:59:46 [INFO] openConsoleAppObject : (SalesforceLibrary.java:269) : Opening Object : Cases
+15-Feb-2018 : 05:59:46 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:01 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Don't Save : //button[normalize-space(text())="Don't Save"]
+15-Feb-2018 : 06:00:10 [INFO] getContentText : (SeleniumLibrary.java:763) : Content Text : Cases
+15-Feb-2018 : 06:00:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:10 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 06:00:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:10 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 06:00:10 [INFO] createNewRecord : (CRMLibrary.java:133) : Object: Cases
+15-Feb-2018 : 06:00:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:10 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:15 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:15 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 06:00:15 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:15 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, 'recordtypeselect.jsp')]
+15-Feb-2018 : 06:00:15 [INFO] sleepExecutionFor : (GenericLibrary.java:328) : Sleep Time : 2 Seconds.
+15-Feb-2018 : 06:00:17 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Continue : //input[normalize-space(@value)="Continue" and (@type='button' or @type='submit')]
+15-Feb-2018 : 06:00:18 [INFO] createNewRecord : (CRMLibrary.java:169) : Record Type: Benefits Verification
+15-Feb-2018 : 06:00:18 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:18 [INFO] fillFormDetails : (CRMLibrary.java:310) : Case Sub-Type: New BV
+15-Feb-2018 : 06:00:23 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:23 [INFO] switchToFrame : (DriverSyncLibrary.java:225) : Frame identified : 1
+15-Feb-2018 : 06:00:23 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:23 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (XPATH) : //iframe[contains(@src, '500/e?') and not(contains(@src, 'knowledge/'))]
+15-Feb-2018 : 06:00:23 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Record Type --> Field Type: Label --> Test Data: Benefits Verification
+15-Feb-2018 : 06:00:23 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Case Sub-Type --> Field Type: Picklist --> Test Data: New BV
+15-Feb-2018 : 06:00:23 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Case Sub-Type : //label[normalize-space(text())="Case Sub-Type"]/following::select[1]
+15-Feb-2018 : 06:00:23 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Source --> Field Type: Picklist --> Test Data: Patient
+15-Feb-2018 : 06:00:23 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Source : //label[normalize-space(text())="Source"]/following::select[1]
+15-Feb-2018 : 06:00:24 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Status --> Field Type: Picklist --> Test Data: In Progress
+15-Feb-2018 : 06:00:24 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Status : //label[normalize-space(text())="Status"]/following::select[1]
+15-Feb-2018 : 06:00:24 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Method of Intake --> Field Type: Picklist --> Test Data: Fax
+15-Feb-2018 : 06:00:24 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Method of Intake : //label[normalize-space(text())="Method of Intake"]/following::select[1]
+15-Feb-2018 : 06:00:24 [INFO] fillFormDetails : (CRMLibrary.java:326) : Field Label: Prescription --> Field Type: Lookup --> Test Data: PN-00186
+15-Feb-2018 : 06:00:24 [INFO] selectLookupValue : (SalesforceLibrary.java:95) : Selecting PN-00186 in Prescription lookUp.
+15-Feb-2018 : 06:00:24 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]
+15-Feb-2018 : 06:00:24 [INFO] getElementXPath : (SeleniumLibrary.java:1447) : XPath for Prescription : //label[normalize-space(text())="Prescription"]/following::a[contains(@href, 'openLookup')][1]
+15-Feb-2018 : 06:00:24 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1589) : Current Window Handle : CDwindow-(810184D3D47D0D2739EFDEA470A2B7E0)
+15-Feb-2018 : 06:00:24 [INFO] switchWndAndGetCurrentWndHandle : (SeleniumLibrary.java:1594) : No. Of Opened Windows : 2
+15-Feb-2018 : 06:00:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:26 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:26 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 06:00:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:31 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : searchFrame
+15-Feb-2018 : 06:00:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:31 [INFO] switchToDefault : (DriverSyncLibrary.java:278) : Switching to default content
+15-Feb-2018 : 06:00:31 [INFO] switchToFrame : (DriverSyncLibrary.java:261) : Switching to frame (ID) : resultsFrame
+15-Feb-2018 : 06:00:36 [ERROR] handleErrorAndException : (GenericLibrary.java:524) : PN-00186 is not available in Prescription Lookup
+15-Feb-2018 : 06:00:41 [ERROR] onAssertFailure : (FusionAssertion.java:29) : PN-00186 is not available in Prescription Lookup
+15-Feb-2018 : 06:01:02 [ERROR] onAssertFailure : (FusionAssertion.java:36) : Screenshot : CRM_Benefit Verification_02152018_060041914_Failed.PNG
+15-Feb-2018 : 06:01:02 [ERROR] onAssertFailure : (FusionAssertion.java:50) : java.lang.Exception: Assertion Failure. Message: PN-00186 is not available in Prescription Lookup
+15-Feb-2018 : 06:01:03 [INFO] closeMethod : (TestCaseController.java:108) : **********************************************************************

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="Accounts">001</entry>
+	<entry key="Alternate Coverage Options">a24</entry>
+	<entry key="Attachments">a3m</entry>
+	<entry key="Benefits &amp; Coverage">a2u</entry>
+	<entry key="Benefits Profiles">a27</entry>
+	<entry key="Brand">a29</entry>
+	<entry key="Cards">a2A</entry>
+	<entry key="Cases">500</entry>
+	<entry key="Claim Line Items">a2D</entry>
+	<entry key="Claims">a47</entry>
+	<entry key="Codes">a2E</entry>
+	<entry key="Compatibilities">a2G</entry>
+	<entry key="Consents/Opts/Preferences">a2H</entry>
+	<entry key="Contacts">a2I</entry>
+	<entry key="Copay Claim Responses">a4V</entry>
+	<entry key="Correspondence Responses">a2K</entry>
+	<entry key="Document Management">a2M</entry>
+	<entry key="eEligiblity Responses">a3V</entry>
+	<entry key="Eligibility Checks">a25</entry>
+	<entry key="Fills">a2T</entry>
+	<entry key="Financial Profiles">a2U</entry>
+	<entry key="Fulfillment Items">a2X</entry>
+	<entry key="IDs &amp; Licenses">a2Z</entry>
+	<entry key="Missing Info">a2i</entry>
+	<entry key="New Message">a2g</entry>
+	<entry key="Opt-Ins">a2l</entry>
+	<entry key="Order Line Items">a2m</entry>
+	<entry key="Orders">a2n</entry>
+	<entry key="Patient Referrals">a2p</entry>
+	<entry key="Portal User Subscriptions">a3A</entry>
+	<entry key="Prescription Dosage Details">a2z</entry>
+	<entry key="Prescriptions">a30</entry>
+	<entry key="Product Codes">a31</entry>
+	<entry key="Products">01t</entry>
+	<entry key="Program Blueprint Versions">a3k</entry>
+	<entry key="Program Blueprints">a4Y</entry>
+	<entry key="Program Brand Affliation">a33</entry>
+	<entry key="Program Brand Blueprint Affiliations">a4Z</entry>
+	<entry key="Program Factor Rankings">a36</entry>
+	<entry key="Programs">a1d</entry>
+	<entry key="Related Brands">a3C</entry>
+	<entry key="Related Card">a4D</entry>
+	<entry key="Related People">a3B</entry>
+	<entry key="Secure Messages">a2h</entry>
+	<entry key="Site Relationship">a3H</entry>
+	<entry key="Tasks">a1l</entry>
+</properties>
